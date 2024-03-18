@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Confession</title>
+    <style>
+        @keyframes gradientBackground {
+            0%   { background: #ff9a9e; }
+            50%  { background: #fad0c4; }
+            100% { background: #ff9a9e; }
+        }
+
+        body {
+            animation: gradientBackground 15s ease infinite;
+            background-size: 300% 300%;
+            color: #fff;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: 'Helvetica Neue', sans-serif;
+        }
+
+        @keyframes heartbeat {
+            0% { transform: scale(1); }
+            14% { transform: scale(1.3); }
+            28% { transform: scale(1); }
+            42% { transform: scale(1.3); }
+            70% { transform: scale(1); }
+        }
+
+        h1 {
+            animation: heartbeat 2s infinite;
+        }
+
+        .love-note {
+            opacity: 0;
+            transform: scale(0);
+            animation: zoomFadeIn 2s forwards;
+            animation-delay: 0.5s;
+        }
+
+        @keyframes zoomFadeIn {
+            0% {
+                opacity: 0;
+                transform: scale(0);
+            }
+            100% {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>My Dearest Thelma,</h1>
+    <p class="love-note">When I say i love you ,i mean every part of you ,you look so little and i just want to protect you all day,you give me goosebumps your eyes are charming and captivating ,i just wanna chomp on your lips everyday and feel the heat of your body.</p>
+    <p class="love-note">we dont have memories to cherish and will go seperate ways sooner ,i just want to tell you how i feel.</p>
+    <p class="love-note">With every beat of my heart, I will love you.</p>
+    <p class="love-note">Forever and always,</p>
+    <p class="love-note">batman</p>
+</body> 
+</html>
